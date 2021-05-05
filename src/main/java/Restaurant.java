@@ -30,6 +30,12 @@ public class Restaurant {
         //DELETE ABOVE RETURN STATEMENT AND WRITE CODE HERE
     }
 
+    //TDD Method
+    public int getTotalOfSelectedItems(List<String> itemList) {
+        int total = 0;
+        return total;
+    }
+
     private Item findItemByName(String itemName){
         for(Item item: menu) {
             if(item.getName().equals(itemName))
